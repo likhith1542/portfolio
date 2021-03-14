@@ -1,0 +1,128 @@
+.about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about__img {
+  height: 500px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.about__right {
+  width: 60vw;
+  height: 60vh;
+  color: white;
+}
+
+.about__right h1 {
+  font-weight: 100;
+}
+
+.about__introduction {
+  width: 40vw;
+}
+
+.about__intro {
+  color: gray;
+}
+
+.about__keyskillsheader {
+  font-weight: 100;
+}
+
+.keyskill__heading {
+  display: flex;
+  align-items: center;
+}
+
+.about__keyskillsheader {
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.skill__points {
+  margin-left: 35px;
+}
+
+.point {
+  font-weight: 250;
+  color: gray;
+  padding: 5px;
+}
+
+.keyskill__heading > .MuiSvgIcon-root {
+  font-size: 2rem !important;
+}
+
+.skill__points.a {
+  list-style-type: circle;
+}
+
+.keyskill__heading > .MuiSvgIcon-root {
+  color: #2c2ceb !important;
+}
+
+@media only screen and (max-width: 648px) {
+  .about__img {
+    display: none;
+  }
+  .about__right {
+    width: auto;
+    height: auto;
+    color: white;
+    padding: 7px;
+  }
+  
+  .about__right h1 {
+    font-weight: 100;
+  }
+  
+  .about__introduction {
+    width: auto;
+  }
+  
+  .about__intro {
+    color: gray;
+  }
+  
+  .about__keyskillsheader {
+    font-weight: 100;
+  }
+  
+  .keyskill__heading {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about__keyskillsheader {
+    padding: 10px;
+    margin-left: 20px;
+  }
+  
+  .skill__points {
+    margin-left: 35px;
+  }
+  
+  .point {
+    font-weight: 250;
+    color: gray;
+    padding: 5px;
+  }
+  
+  .keyskill__heading > .MuiSvgIcon-root {
+    font-size: 2rem !important;
+  }
+  
+  .skill__points.a {
+    list-style-type: circle;
+  }
+  
+  .keyskill__heading > .MuiSvgIcon-root {
+    color: #2c2ceb !important;
+  }
+  
+}

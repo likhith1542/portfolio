@@ -1,0 +1,14 @@
+.serslider>.slick-slide{
+    display: flex !important;
+}
+
+.service__card{
+    background-color: #14274e !important;
+    padding: 0px;
+    border-radius: 16px;
+    height: fit-content;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

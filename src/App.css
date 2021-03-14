@@ -1,0 +1,25 @@
+.home__container{
+    height: 90vh;
+}
+
+.backbtn{
+    border: none !important;
+    background-color: orangered !important;
+    outline: none !important;
+    color: white !important;
+}
+
+.backbtn__cont {
+    bottom: 4.5vh !important;
+    position: fixed !important;
+    margin: 1em !important;
+    right: 2.5vw !important;
+}
+
+@media (max-width: 648px) {
+    .home__container{
+        height: 85vh;
+        width: 100vw;
+    }
+}
+
